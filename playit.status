@@ -1,0 +1,975 @@
+8[0mno command provided, doing auto run[2J8[0mchecking if secret key is valid[2J8[0msecret key valid, agent has 2 tunnels[2J8[0mstarting up tunnel connection[2J8[0mtunnel running[2J8[0mGot Error
+MSG: Failed to load latest tunnels
+Error: ClientError(TooManyRequests)
+[2J8[0mplayit (v0.15.26): 1731266542971 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266546037 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266549138 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266552680 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266555762 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266558860 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266561928 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266565073 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266568146 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266571221 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266574279 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266577367 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266580438 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266583539 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266586615 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266589673 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266592746 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266595812 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266598881 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266601952 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266605121 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mGot Error
+MSG: Failed to load latest tunnels
+Error: ClientError(TooManyRequests)
+[2J8[0mplayit (v0.15.26): 1731266620221 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266623290 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266626350 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266629410 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266632471 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266635537 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266638604 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266641682 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266644887 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266648151 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266651255 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mGot Error
+MSG: Failed to load latest tunnels
+Error: ClientError(TooManyRequests)
+[2J8[0mplayit (v0.15.26): 1731266666387 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266669458 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266672569 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266675637 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266678703 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266681801 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266684864 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mGot Error
+MSG: Failed to load latest tunnels
+Error: ClientError(TooManyRequests)
+[2J8[0mplayit (v0.15.26): 1731266700112 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266703173 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266706251 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266709316 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mGot Error
+MSG: Failed to load latest tunnels
+Error: ClientError(TooManyRequests)
+[2J8[0mplayit (v0.15.26): 1731266724467 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266727545 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266730621 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266733767 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266736840 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266739910 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mGot Error
+MSG: Failed to load latest tunnels
+Error: ClientError(TooManyRequests)
+[2J8[0mplayit (v0.15.26): 1731266755021 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266758083 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266761199 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266764574 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266767634 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266770691 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266773820 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266776877 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266779947 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266783035 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266786111 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266789211 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266792276 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266795360 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266798424 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266801498 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266804558 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mGot Error
+MSG: Failed to load latest tunnels
+Error: ClientError(TooManyRequests)
+[2J8[0mplayit (v0.15.26): 1731266819664 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266822736 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266825844 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266828957 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266832029 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266835096 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266838157 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266841307 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266844410 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266847561 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266850620 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266853681 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266856757 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266859843 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266862906 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266866068 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266869137 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266872221 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266875320 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266878404 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266881477 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266884548 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266887626 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266890699 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266893765 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266896832 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266899892 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266902948 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266906008 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266909140 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266912210 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266915432 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266918661 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266921722 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266924786 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266927847 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mGot Error
+MSG: Failed to load latest tunnels
+Error: ClientError(TooManyRequests)
+[2J8[0mplayit (v0.15.26): 1731266942951 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266946046 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266949108 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mGot Error
+MSG: Failed to load latest tunnels
+Error: ClientError(TooManyRequests)
+[2J8[0mplayit (v0.15.26): 1731266964215 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266967280 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266970342 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266973399 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266976611 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266979664 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mGot Error
+MSG: Failed to load latest tunnels
+Error: ClientError(TooManyRequests)
+[2J8[0mplayit (v0.15.26): 1731266994775 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731266997854 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731267000927 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731267004002 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731267007079 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731267010136 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mGot Error
+MSG: Failed to load latest tunnels
+Error: ClientError(TooManyRequests)
+[2J8[0mplayit (v0.15.26): 1731267025223 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731267028287 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731267031357 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731267034431 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731267037503 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731267040584 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731267043659 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731267046769 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731267049829 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mGot Error
+MSG: Failed to load latest tunnels
+Error: ClientError(TooManyRequests)
+[2J8[0mplayit (v0.15.26): 1731267064947 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731267068006 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731267071083 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731267074144 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731267077210 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731267080269 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mGot Error
+MSG: Failed to load latest tunnels
+Error: ClientError(TooManyRequests)
+[2J8[0mplayit (v0.15.26): 1731267095391 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731267098455 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731267101515 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731267104585 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731267107672 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mGot Error
+MSG: Failed to load latest tunnels
+Error: ClientError(TooManyRequests)
+[2J8[0mplayit (v0.15.26): 1731267122775 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731267125855 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731267128930 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731267131996 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731267135055 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731267138117 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731267141179 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731267144269 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731267147349 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731267150522 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731267153598 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731267156661 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731267159724 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731267162788 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731267165859 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731267168923 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mGot Error
+MSG: Failed to load latest tunnels
+Error: ClientError(TooManyRequests)
+[2J8[0mplayit (v0.15.26): 1731267184017 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1731267187089 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+simple-stake.gl.at.ply.gg:53581 => 127.0.0.1:53581 (proto: Both, port count: 1)
+including-take.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)

@@ -1,0 +1,12 @@
+Events:
+  vi:
+  event8:
+    type: player_join
+    conditions:
+    - '%objective_score_{vi}% == 0'
+    actions:
+      default:
+      - 'console_command: tp %player% -17 -62 31 225 1'
+      - 'to_all: message: %player% se ha unido por primera vez a esta pesadilla'
+      - 'message: vienvenido %player%'
+      - 'console_command: scoreboard players set %player% vi 8'

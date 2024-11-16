@@ -1,0 +1,152 @@
+Events:
+  SHSetUp:
+    enabled: true
+    type: player_command
+    conditions:
+    - '%main_command% == /sh'
+    - '%arg_1% == setup execute setup'
+    - '%arg_1% == op1 execute op1'
+    - '%arg_1% == op2 execute op2'
+    - '%arg_1% == activar execute activar'
+    - '%arg_1% == desactivar execute desactivar'
+    actions:
+      default:
+      - 'cancel_event: true'
+      - 'console_command: attribute %player% minecraft:generic.max_health base set
+        20'
+      - 'player_command: scoreboard objectives remove vidas'
+      - 'player_command: ce disable Join1'
+      - 'player_command: ce disable Death1'
+      - 'player_command: ce disable Join2'
+      - 'player_command: ce disable Atributo2'
+      - 'wait: 1'
+      - 'centered_message: &f&m                                                      '
+      - 'centered_message: &c&lDebes elegir una opcion'
+      - 'centered_message: &esetup &7Ejecuta las dependencias'
+      - 'centered_message: &eop1 &7Opcion basada en el clasico sistema de vidas arcade'
+      - 'centered_message: &eop2 &7Opcion basada en la vida del jugador'
+      - 'centered_message: &f&m                                                      '
+      setup:
+      - 'cancel_event: true'
+      - 'console_command: attribute %player% minecraft:generic.max_health base set
+        20'
+      - 'player_command: papi ecloud download Player'
+      - 'player_command: papi ecloud download scoreboardobjectives'
+      - 'player_command: scoreboard objectives remove vidas'
+      - 'player_command: ce disable Join1'
+      - 'player_command: ce disable Death1'
+      - 'player_command: ce disable Join2'
+      - 'player_command: ce disable Atributo2'
+      - 'wait: 1'
+      - 'player_command: papi reload'
+      - 'wait: 1'
+      - 'player_command: papi list'
+      - 'wait: 1'
+      - 'centered_message: &f&m                                                      '
+      - 'centered_message: &c&lDebes elegir una opcion'
+      - 'centered_message: &eop1 &7Opcion basada en el clasico sistema de vidas arcade'
+      - 'centered_message: &eop2 &7Opcion basada en la vida del jugador'
+      - 'centered_message: &f&m                                                      '
+      op1:
+      - 'cancel_event: true'
+      - 'console_command: attribute %player% minecraft:generic.max_health base set
+        20'
+      - 'player_command: scoreboard objectives remove vidas'
+      - 'player_command: ce disable Join1'
+      - 'player_command: ce disable Death1'
+      - 'player_command: ce disable Death2'
+      - 'player_command: ce disable Join2'
+      - 'player_command: ce disable Atributo2'
+      - 'player_command: scoreboard objectives add vidas dummy'
+      - 'player_command: ce enable Join1'
+      - 'player_command: ce enable Death1'
+      - 'to_all: message: todo listo'
+      - 'wait: 1'
+      - 'centered_message: &f&m                                                      '
+      - 'centered_message: &c&lSe ha establecido'
+      - 'centered_message: &eop1 &7Opcion basada en el clasico sistema de vidas arcade'
+      - 'centered_message: &f&m                                                     '
+      op2:
+      - 'cancel_event: true'
+      - 'console_command: attribute %player% minecraft:generic.max_health base set
+        20'
+      - 'player_command: scoreboard objectives remove vidas'
+      - 'player_command: ce disable Join1'
+      - 'player_command: ce disable Death1'
+      - 'player_command: ce disable Death2'
+      - 'player_command: ce disable Join2'
+      - 'player_command: ce disable Atributo2'
+      - 'player_command: scoreboard objectives add vidas dummy'
+      - 'player_command: ce enable Join2'
+      - 'player_command: ce enable Atributo2'
+      - 'player_command: ce enable Death2'
+      - 'to_all: message: todo listo'
+      - 'wait: 1'
+      - 'centered_message: &f&m                                                      '
+      - 'centered_message: &c&lSe ha establecido'
+      - 'centered_message: &eop1 &7Opcion basada en vida del jugador'
+      - 'centered_message: &f&m                                                     '
+  Join1:
+    enabled: false
+    type: player_join
+    conditions:
+    - '%objective_score_{vidas}% equals 0'
+    actions:
+      default:
+      - 'console_command: scoreboard players set %player% vidas 5'
+  Death1:
+    enabled: false
+    type: player_death
+    conditions:
+    - '%objective_score_{vidas}% == 1 execute action2'
+    actions:
+      default:
+      - 'console_command: scoreboard players remove %player% vidas 1'
+      - 'wait: 1'
+      - 'to_all: message: &c&lEL JUGADOR &e%player% &c&lPERDIO 1 VIDA LE QUEDAN %objective_score_{vidas}%'
+      action2:
+      - 'console_command: scoreboard players set %player% vidas -1'
+      - 'console_command: gamemode spectator %player%'
+      - 'to_all: message: &c&lEL JUGADOR &e%player% &c&lPERDIO TODAS SUS VIDAS'
+      - 'wait: 2'
+      - 'console_command: kick %player% Gracias por jugar'
+  Join2:
+    enabled: false
+    type: player_join
+    conditions:
+    - '%objective_score_{vidas}% == 0'
+    actions:
+      default:
+      - 'console_command: scoreboard players set %player% vidas 20'
+  Death2:
+    enabled: false
+    type: player_death
+    conditions:
+    - '%objective_score_{vidas} == 1 execute action2'
+    actions:
+      default:
+      - 'console_command: scoreboard players remove %player% vidas 1'
+      action2:
+      - 'console_command: scoreboard players set %player% vidas -1'
+      - 'console_command: gamemode spectator %player%'
+      - 'to_all: message: &c&lEL JUGADOR &e%player% &c&lPERDIO TODAS SUS VIDAS VIVIRA
+        HASTA EL FIN DE LA NOCHE'
+      - 'wait: 2'
+  Atributo2:
+    enabled: false
+    type: repetitive
+    repetitive_time: 24
+    conditions:
+    - '%world_time_{player_world}% >= 0'
+    - '%world_time_{player_world}% <= 100'
+    - '%objective_score_{vidas}% <= 0 execute action2'
+    actions:
+      default:
+      - 'console_command: attribute %player% minecraft:generic.max_health base set
+        %objective_score_{vidas}%'
+      action2:
+      - 'console_command: scoreboard players set %player% vidas -1'
+      - 'console_command: gamemode spectator %player%'
+      - 'to_all: message: &c&lEL JUGADOR &e%player% &c&lPERDIO TODAS SUS VIDAS'
+      - 'wait: 2'
+      - 'console_command: kick %player% Gracias por jugar'

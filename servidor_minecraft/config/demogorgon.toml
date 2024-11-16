@@ -1,0 +1,84 @@
+
+[general]
+	#Biome List
+	biomeList = "DEEP_DARK"
+	#Mob speed (Crawling Speed)
+	#Range: 0.0 ~ 1024.0
+	speed = 0.4
+	#Crawling Speed (idle).
+	#Range: 0.0 ~ 5.0
+	idleSpeed = 0.2
+	#Mob speed when near target(player)
+	#Range: 0.0 ~ 1024.0
+	speedNearTarget = 0.3
+	#Slowdown effect when in 2x2 space
+	#0 - 1lvl
+	#-1 - no slowdown
+	#Range: -1 ~ 10
+	slowdownLevel2x2 = 0
+	#Knockback Resistance
+	#Range: 0.0 ~ 1.0
+	knockbackResistance = 0.0
+	#Attack Damage
+	#Range: 0.0 ~ 2048.0
+	attackDamage = 1.0
+	#Attack speed (attack/tick)
+	#Range: 0 ~ 1000
+	attackSpeed = 70
+	#Armor
+	#Range: 0.0 ~ 30.0
+	armor = 5.0
+	#Armor Tougheness
+	#Range: 0.0 ~ 20.0
+	armorToughness = 0.0
+	#HP
+	#Range: 1.0 ~ 1024.0
+	maxHp = 20.0
+	#Follow Range
+	#Range: 0.0 ~ 2048.0
+	followRange = 64.0
+	#Laser Beam duration
+	#Range: 0 ~ 200
+	sonicBoomDuration = 60
+	#Will the mob disappear? true - he will disappear.
+	isDisspawn = true
+	#To do nothing
+	#Range: 0.0 ~ 1.0
+	chanceNothing = 0.1
+	#Chance to Attack
+	#Range: 0.0 ~ 1.0
+	chanceAttack = 0.4
+	#Chance to Fake Attack
+	#Range: 0.0 ~ 1.0
+	chanceFakeAttack = 0.3
+	#Chance run
+	#Range: 0.0 ~ 1.0
+	chanceRun = 0.4
+	#Chance for a Portal to spawn in the wall
+	#Range: 0.0 ~ 1.0
+	chancePortal = 0.9
+	#For no portal to spawn
+	#Range: 0.0 ~ 1.0
+	chanceWithoutPortal = 1.0
+	#Portal spawn frequency. From:
+	#Range: 0 ~ 9999999
+	portalCooldownFrom = 1200
+	#Portal spawn frequency. Before:
+	#Range: 0 ~ 9999999
+	portalCooldownBefore = 1800
+	#Entity Spawn frequency. From:
+	#Range: 0 ~ 9999999
+	spawnCooldownFrom = 8400
+	#Entity spawn frequency. Before:
+	#Range: 0 ~ 9999999
+	spawnCooldownBefore = 10400
+	#Chance Entity spawn
+	#Range: 0.0 ~ 1.0
+	chanceSpawn = 0.1
+	#Maximum following time
+	#Range: 0 ~ 9999999
+	attackMaxDuration = 1200
+	#How many ticks should there be between sounds? (ticks)
+	#Range: 0 ~ 9999999
+	ambientSoundDelay = 1200
+

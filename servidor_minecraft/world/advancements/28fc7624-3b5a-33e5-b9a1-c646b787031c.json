@@ -41,6 +41,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/observer": {
+    "criteria": {
+      "has_quartz": "2024-11-17 18:51:08 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/spruce_door": {
     "criteria": {
       "has_planks": "2024-11-15 18:44:13 +0000"
@@ -281,9 +287,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/diorite": {
+    "criteria": {
+      "has_quartz": "2024-11-17 18:51:08 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/firework_rocket_simple": {
     "criteria": {
       "has_gunpowder": "2024-11-15 18:56:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2024-11-17 18:49:55 +0000"
     },
     "done": true
   },
@@ -529,6 +547,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/granite": {
+    "criteria": {
+      "has_quartz": "2024-11-17 18:51:08 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/purple_concrete_powder": {
     "criteria": {
       "has_gravel": "2024-11-15 19:01:59 +0000"
@@ -604,6 +628,12 @@
   "minecraft:recipes/transportation/oak_chest_boat": {
     "criteria": {
       "has_boat": "2024-11-15 19:43:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/comparator": {
+    "criteria": {
+      "has_quartz": "2024-11-17 18:51:08 +0000"
     },
     "done": true
   },
@@ -863,8 +893,12 @@
     "criteria": {
       "minecraft:pillager": "2024-11-15 19:23:45 +0000",
       "minecraft:skeleton": "2024-11-15 19:09:08 +0000",
+      "minecraft:ghast": "2024-11-17 18:57:02 +0000",
+      "minecraft:hoglin": "2024-11-17 18:42:18 +0000",
       "minecraft:spider": "2024-11-15 19:29:08 +0000",
       "minecraft:creeper": "2024-11-15 18:56:19 +0000",
+      "minecraft:zombified_piglin": "2024-11-17 18:54:09 +0000",
+      "minecraft:piglin": "2024-11-17 18:42:24 +0000",
       "minecraft:zombie": "2024-11-15 18:56:11 +0000",
       "minecraft:zombie_villager": "2024-11-15 19:16:06 +0000"
     },
@@ -1200,6 +1234,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/nether_brick": {
+    "criteria": {
+      "has_netherrack": "2024-11-17 18:43:54 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/andesite_slab_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2024-11-15 18:58:03 +0000"
@@ -1452,6 +1492,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/chiseled_deepslate": {
+    "criteria": {
+      "has_cobbled_deepslate_slab": "2024-11-17 18:40:45 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/red_concrete_powder": {
     "criteria": {
       "has_gravel": "2024-11-15 19:01:59 +0000"
@@ -1515,6 +1561,12 @@
   "minecraft:recipes/building_blocks/polished_andesite": {
     "criteria": {
       "has_andesite": "2024-11-15 18:58:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_block": {
+    "criteria": {
+      "has_quartz": "2024-11-17 18:51:08 +0000"
     },
     "done": true
   },
@@ -1649,6 +1701,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2024-11-17 18:51:44 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/birch_stairs": {
     "criteria": {
       "has_planks": "2024-11-17 17:45:27 +0000"
@@ -1682,6 +1740,12 @@
   "minecraft:recipes/transportation/carrot_on_a_stick": {
     "criteria": {
       "has_carrot": "2024-11-15 19:47:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/daylight_detector": {
+    "criteria": {
+      "has_quartz": "2024-11-17 18:51:08 +0000"
     },
     "done": true
   },
@@ -1753,7 +1817,8 @@
   },
   "minecraft:nether/explore_nether": {
     "criteria": {
-      "minecraft:crimson_forest": "2024-11-17 18:27:22 +0000"
+      "minecraft:crimson_forest": "2024-11-17 18:27:22 +0000",
+      "minecraft:nether_wastes": "2024-11-17 18:43:35 +0000"
     },
     "done": false
   },

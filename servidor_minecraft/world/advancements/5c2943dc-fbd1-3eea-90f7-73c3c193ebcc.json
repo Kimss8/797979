@@ -197,6 +197,12 @@
     },
     "done": true
   },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_leggings": "2024-11-17 17:46:33 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/brown_concrete_powder": {
     "criteria": {
       "has_gravel": "2024-11-15 19:16:08 +0000"
@@ -337,6 +343,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_porkchop": "2024-11-17 17:58:31 +0000",
       "chicken": "2024-11-15 19:37:46 +0000",
       "sweet_berries": "2024-11-15 19:51:27 +0000",
       "cooked_beef": "2024-11-17 17:17:56 +0000",
@@ -431,6 +438,12 @@
   "minecraft:recipes/decorations/granite_wall": {
     "criteria": {
       "has_granite": "2024-11-17 17:40:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/note_block": {
+    "criteria": {
+      "has_redstone": "2024-11-17 17:51:50 +0000"
     },
     "done": true
   },
@@ -716,6 +729,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/redstone_torch": {
+    "criteria": {
+      "has_redstone": "2024-11-17 17:51:50 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/birch_boat": {
     "criteria": {
       "in_water": "2024-11-15 18:38:29 +0000"
@@ -842,6 +861,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/clock": {
+    "criteria": {
+      "has_redstone": "2024-11-17 17:51:50 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/spruce_fence": {
     "criteria": {
       "has_planks": "2024-11-15 18:37:10 +0000"
@@ -890,6 +915,12 @@
   "minecraft:recipes/building_blocks/polished_deepslate_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2024-11-15 19:01:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_block": {
+    "criteria": {
+      "has_redstone": "2024-11-17 17:51:50 +0000"
     },
     "done": true
   },
@@ -1409,6 +1440,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/dropper": {
+    "criteria": {
+      "has_redstone": "2024-11-17 17:51:50 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/cobbled_deepslate_wall": {
     "criteria": {
       "has_cobbled_deepslate": "2024-11-15 19:01:30 +0000"
@@ -1481,6 +1518,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/compass": {
+    "criteria": {
+      "has_redstone": "2024-11-17 17:51:50 +0000"
+    },
+    "done": true
+  },
   "man:feelingwatched": {
     "criteria": {
       "feelingwatched": "2024-11-15 18:39:46 +0000"
@@ -1534,6 +1577,7 @@
       "minecraft:old_growth_pine_taiga": "2024-11-15 18:25:10 +0000",
       "minecraft:taiga": "2024-11-15 18:46:11 +0000",
       "minecraft:deep_ocean": "2024-11-15 19:56:41 +0000",
+      "minecraft:sunflower_plains": "2024-11-17 17:58:46 +0000",
       "minecraft:birch_forest": "2024-11-15 18:45:35 +0000",
       "minecraft:beach": "2024-11-15 19:42:44 +0000",
       "minecraft:dark_forest": "2024-11-15 18:44:26 +0000",
@@ -1743,6 +1787,12 @@
   "minecraft:recipes/combat/golden_leggings": {
     "criteria": {
       "has_gold_ingot": "2024-11-15 19:44:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/piston": {
+    "criteria": {
+      "has_redstone": "2024-11-17 17:51:50 +0000"
     },
     "done": true
   },

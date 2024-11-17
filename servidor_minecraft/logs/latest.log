@@ -31829,3 +31829,359 @@ java.lang.NullPointerException: entityType is marked non-null but is null
 [17Nov2024 18:37:35.260] [Netty Epoll Server IO #0/ERROR] [STDERR/]: java.lang.NullPointerException
 [17Nov2024 18:37:41.607] [Server thread/WARN] [StackMob/]: Task #138307 for StackMob v5.9.2 generated an exception
 java.lang.NullPointerException: null
+[17Nov2024 18:37:45.807] [User Authenticator #11/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player MRvite is 5c2943dc-fbd1-3eea-90f7-73c3c193ebcc
+[17Nov2024 18:37:47.415] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@6f892e42
+[17Nov2024 18:37:47.419] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: MRvite[/127.22.126.53:34889] logged in with entity id 36058 at (-668.9530640807073, 70.0, 365.08483818197885)
+[17Nov2024 18:37:47.427] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MRvite joined the game
+[17Nov2024 18:37:47.524] [Server thread/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Player MRvite just logged in with id 5c2943dc-fbd1-3eea-90f7-73c3c193ebcc
+[17Nov2024 18:37:47.535] [ForkJoinPool-7-worker-10/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Loading local skin for player MRvite[5c2943dc-fbd1-3eea-90f7-73c3c193ebcc]
+[17Nov2024 18:37:47.537] [ForkJoinPool-7-worker-10/INFO] [me.edoren.skin_changer.common.NetworkUtils/]: Downloading file https://playerdb.co/api/player/minecraft/MRvite
+[17Nov2024 18:37:47.616] [ForkJoinPool-7-worker-10/INFO] [me.edoren.skin_changer.common.NetworkUtils/]: File https://playerdb.co/api/player/minecraft/MRvite downloaded
+[17Nov2024 18:37:47.616] [ForkJoinPool-7-worker-10/INFO] [me.edoren.skin_changer.common.NetworkUtils/]: Downloading file https://crafatar.com/capes/00cdc0ab-1f56-472b-a0d8-60d674e91abc
+[17Nov2024 18:37:47.718] [Server thread/INFO] [voicechat/]: Received secret request of MRvite (18)
+[17Nov2024 18:37:47.720] [Server thread/INFO] [voicechat/]: Sent secret to MRvite
+[17Nov2024 18:37:47.974] [Netty Epoll Server IO #2/WARN] [ac.grim.grimac.shaded.com.github.retrooper.packetevents.PacketEventsAPI/]: PacketEvents caught an unhandled exception while calling your listener.
+java.lang.NullPointerException: entityType is marked non-null but is null
+	at ac.grim.grimac.utils.data.TrackerData.<init>(TrackerData.java:9) ~[?:?] {}
+	at ac.grim.grimac.events.packets.PacketEntityReplication.addEntity(PacketEntityReplication.java:479) ~[?:?] {}
+	at ac.grim.grimac.events.packets.PacketEntityReplication.onPacketSend(PacketEntityReplication.java:96) ~[?:?] {}
+	at ac.grim.grimac.manager.CheckManager.onPacketSend(CheckManager.java:211) ~[?:?] {}
+	at ac.grim.grimac.events.packets.CheckManagerListener.onPacketSend(CheckManagerListener.java:837) ~[?:?] {}
+	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.PacketSendEvent.call(PacketSendEvent.java:51) ~[?:?] {}
+	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.EventManager.callEvent(EventManager.java:84) ~[?:?] {}
+	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.util.PacketEventsImplHelper.handleClientBoundPacket(PacketEventsImplHelper.java:45) ~[?:?] {}
+	at ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsEncoder.handleClientBoundPacket(PacketEventsEncoder.java:87) ~[?:?] {}
+	at ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsEncoder.encode(PacketEventsEncoder.java:72) ~[?:?] {}
+	at ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsEncoder.encode(PacketEventsEncoder.java:51) ~[?:?] {}
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:89) ~[netty-codec-4.1.77.Final.jar%23113!/:4.1.77.Final] {re:mixin}
+	at ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsEncoder.write(PacketEventsEncoder.java:106) ~[?:?] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:717) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:709) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:792) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:702) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:113) ~[netty-codec-4.1.77.Final.jar%23113!/:4.1.77.Final] {re:mixin}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:717) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:709) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:792) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:702) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:120) ~[netty-codec-4.1.77.Final.jar%23113!/:4.1.77.Final] {re:mixin}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:717) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:709) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:792) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:702) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:110) ~[netty-codec-4.1.77.Final.jar%23113!/:4.1.77.Final] {re:mixin}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:717) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:764) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:790) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:758) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1020) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:311) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelProxy.writeAndFlush(NettyChannelProxy.java:227) ~[?:?] {}
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelProxy.writeAndFlush(NettyChannelProxy.java:233) ~[?:?] {}
+	at net.minecraft.network.Connection.m_243087_(ConnectionMixin.java:209) ~[server-1.19.2-20220805.130853-srg.jar%23235!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:network.ConnectionMixin,pl:mixin:APP:mixins.arclight.impl.forge.optimization.json:network.ConnectionMixin_Optimize,pl:mixin:A,re:mixin,pl:accesstransformer:B}
+	at net.minecraft.network.Connection.lambda$sendPacket$8(ConnectionMixin.java:198) ~[server-1.19.2-20220805.130853-srg.jar%23235!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:network.ConnectionMixin,pl:mixin:APP:mixins.arclight.impl.forge.optimization.json:network.ConnectionMixin_Optimize,pl:mixin:A,re:mixin,pl:accesstransformer:B}
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.lambda$proxyRunnable$2(NettyEventLoopProxy.java:49) ~[?:?] {}
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174) ~[netty-common-4.1.77.Final.jar%23114!/:4.1.77.Final] {}
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167) ~[netty-common-4.1.77.Final.jar%23114!/:4.1.77.Final] {}
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470) ~[netty-common-4.1.77.Final.jar%23114!/:4.1.77.Final] {}
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:394) ~[netty-transport-classes-epoll-4.1.77.Final.jar%23118!/:4.1.77.Final] {}
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:995) ~[netty-common-4.1.77.Final.jar%23114!/:4.1.77.Final] {}
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.77.Final.jar%23114!/:4.1.77.Final] {}
+	at java.lang.Thread.run(Thread.java:1583) [?:?] {re:mixin,re:mixin}
+[17Nov2024 18:37:48.049] [Netty Epoll Server IO #2/WARN] [ac.grim.grimac.shaded.com.github.retrooper.packetevents.PacketEventsAPI/]: PacketEvents caught an unhandled exception while calling your listener.
+java.lang.NullPointerException: entityType is marked non-null but is null
+	at ac.grim.grimac.utils.data.TrackerData.<init>(TrackerData.java:9) ~[?:?] {}
+	at ac.grim.grimac.events.packets.PacketEntityReplication.addEntity(PacketEntityReplication.java:479) ~[?:?] {}
+	at ac.grim.grimac.events.packets.PacketEntityReplication.onPacketSend(PacketEntityReplication.java:96) ~[?:?] {}
+	at ac.grim.grimac.manager.CheckManager.onPacketSend(CheckManager.java:211) ~[?:?] {}
+	at ac.grim.grimac.events.packets.CheckManagerListener.onPacketSend(CheckManagerListener.java:837) ~[?:?] {}
+	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.PacketSendEvent.call(PacketSendEvent.java:51) ~[?:?] {}
+	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.EventManager.callEvent(EventManager.java:84) ~[?:?] {}
+	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.util.PacketEventsImplHelper.handleClientBoundPacket(PacketEventsImplHelper.java:45) ~[?:?] {}
+	at ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsEncoder.handleClientBoundPacket(PacketEventsEncoder.java:87) ~[?:?] {}
+	at ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsEncoder.encode(PacketEventsEncoder.java:72) ~[?:?] {}
+	at ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsEncoder.encode(PacketEventsEncoder.java:51) ~[?:?] {}
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:89) ~[netty-codec-4.1.77.Final.jar%23113!/:4.1.77.Final] {re:mixin}
+	at ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsEncoder.write(PacketEventsEncoder.java:106) ~[?:?] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:717) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:709) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:792) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:702) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:113) ~[netty-codec-4.1.77.Final.jar%23113!/:4.1.77.Final] {re:mixin}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:717) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:709) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:792) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:702) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:120) ~[netty-codec-4.1.77.Final.jar%23113!/:4.1.77.Final] {re:mixin}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:717) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:709) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:792) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:702) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:110) ~[netty-codec-4.1.77.Final.jar%23113!/:4.1.77.Final] {re:mixin}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:717) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:764) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:790) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:758) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1020) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:311) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelProxy.writeAndFlush(NettyChannelProxy.java:227) ~[?:?] {}
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelProxy.writeAndFlush(NettyChannelProxy.java:233) ~[?:?] {}
+	at net.minecraft.network.Connection.m_243087_(ConnectionMixin.java:209) ~[server-1.19.2-20220805.130853-srg.jar%23235!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:network.ConnectionMixin,pl:mixin:APP:mixins.arclight.impl.forge.optimization.json:network.ConnectionMixin_Optimize,pl:mixin:A,re:mixin,pl:accesstransformer:B}
+	at net.minecraft.network.Connection.lambda$sendPacket$8(ConnectionMixin.java:198) ~[server-1.19.2-20220805.130853-srg.jar%23235!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:network.ConnectionMixin,pl:mixin:APP:mixins.arclight.impl.forge.optimization.json:network.ConnectionMixin_Optimize,pl:mixin:A,re:mixin,pl:accesstransformer:B}
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.lambda$proxyRunnable$2(NettyEventLoopProxy.java:49) ~[?:?] {}
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174) ~[netty-common-4.1.77.Final.jar%23114!/:4.1.77.Final] {}
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167) ~[netty-common-4.1.77.Final.jar%23114!/:4.1.77.Final] {}
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470) ~[netty-common-4.1.77.Final.jar%23114!/:4.1.77.Final] {}
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:394) ~[netty-transport-classes-epoll-4.1.77.Final.jar%23118!/:4.1.77.Final] {}
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:995) ~[netty-common-4.1.77.Final.jar%23114!/:4.1.77.Final] {}
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.77.Final.jar%23114!/:4.1.77.Final] {}
+	at java.lang.Thread.run(Thread.java:1583) [?:?] {re:mixin,re:mixin}
+[17Nov2024 18:37:48.052] [Netty Epoll Server IO #2/WARN] [ac.grim.grimac.shaded.com.github.retrooper.packetevents.PacketEventsAPI/]: PacketEvents caught an unhandled exception while calling your listener.
+java.lang.IllegalStateException: Unknown entity metadata type id: 256 version V_1_19_1
+	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.wrapper.PacketWrapper.readEntityMetadata(PacketWrapper.java:956) ~[?:?] {}
+	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.wrapper.play.server.WrapperPlayServerEntityMetadata.read(WrapperPlayServerEntityMetadata.java:52) ~[?:?] {}
+	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.wrapper.PacketWrapper.readEvent(PacketWrapper.java:272) ~[?:?] {}
+	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.wrapper.PacketWrapper.<init>(PacketWrapper.java:177) ~[?:?] {}
+	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.wrapper.PacketWrapper.<init>(PacketWrapper.java:167) ~[?:?] {}
+	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.wrapper.play.server.WrapperPlayServerEntityMetadata.<init>(WrapperPlayServerEntityMetadata.java:36) ~[?:?] {}
+	at ac.grim.grimac.events.packets.PacketEntityReplication.onPacketSend(PacketEntityReplication.java:122) ~[?:?] {}
+	at ac.grim.grimac.manager.CheckManager.onPacketSend(CheckManager.java:211) ~[?:?] {}
+	at ac.grim.grimac.events.packets.CheckManagerListener.onPacketSend(CheckManagerListener.java:837) ~[?:?] {}
+	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.PacketSendEvent.call(PacketSendEvent.java:51) ~[?:?] {}
+	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.EventManager.callEvent(EventManager.java:84) ~[?:?] {}
+	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.util.PacketEventsImplHelper.handleClientBoundPacket(PacketEventsImplHelper.java:45) ~[?:?] {}
+	at ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsEncoder.handleClientBoundPacket(PacketEventsEncoder.java:87) ~[?:?] {}
+	at ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsEncoder.encode(PacketEventsEncoder.java:72) ~[?:?] {}
+	at ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsEncoder.encode(PacketEventsEncoder.java:51) ~[?:?] {}
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:89) ~[netty-codec-4.1.77.Final.jar%23113!/:4.1.77.Final] {re:mixin}
+	at ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsEncoder.write(PacketEventsEncoder.java:106) ~[?:?] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:717) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:709) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:792) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:702) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:113) ~[netty-codec-4.1.77.Final.jar%23113!/:4.1.77.Final] {re:mixin}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:717) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:709) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:792) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:702) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:120) ~[netty-codec-4.1.77.Final.jar%23113!/:4.1.77.Final] {re:mixin}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:717) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:709) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:792) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:702) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:110) ~[netty-codec-4.1.77.Final.jar%23113!/:4.1.77.Final] {re:mixin}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:717) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:764) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:790) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:758) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1020) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:311) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelProxy.writeAndFlush(NettyChannelProxy.java:227) ~[?:?] {}
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelProxy.writeAndFlush(NettyChannelProxy.java:233) ~[?:?] {}
+	at net.minecraft.network.Connection.m_243087_(ConnectionMixin.java:209) ~[server-1.19.2-20220805.130853-srg.jar%23235!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:network.ConnectionMixin,pl:mixin:APP:mixins.arclight.impl.forge.optimization.json:network.ConnectionMixin_Optimize,pl:mixin:A,re:mixin,pl:accesstransformer:B}
+	at net.minecraft.network.Connection.lambda$sendPacket$8(ConnectionMixin.java:198) ~[server-1.19.2-20220805.130853-srg.jar%23235!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:network.ConnectionMixin,pl:mixin:APP:mixins.arclight.impl.forge.optimization.json:network.ConnectionMixin_Optimize,pl:mixin:A,re:mixin,pl:accesstransformer:B}
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.lambda$proxyRunnable$2(NettyEventLoopProxy.java:49) ~[?:?] {}
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174) ~[netty-common-4.1.77.Final.jar%23114!/:4.1.77.Final] {}
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167) ~[netty-common-4.1.77.Final.jar%23114!/:4.1.77.Final] {}
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470) ~[netty-common-4.1.77.Final.jar%23114!/:4.1.77.Final] {}
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:394) ~[netty-transport-classes-epoll-4.1.77.Final.jar%23118!/:4.1.77.Final] {}
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:995) ~[netty-common-4.1.77.Final.jar%23114!/:4.1.77.Final] {}
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.77.Final.jar%23114!/:4.1.77.Final] {}
+	at java.lang.Thread.run(Thread.java:1583) [?:?] {re:mixin,re:mixin}
+[17Nov2024 18:37:48.055] [Netty Epoll Server IO #2/WARN] [ac.grim.grimac.shaded.com.github.retrooper.packetevents.PacketEventsAPI/]: PacketEvents caught an unhandled exception while calling your listener.
+java.lang.IllegalStateException: Unknown entity metadata type id: 256 version V_1_19_1
+	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.wrapper.PacketWrapper.readEntityMetadata(PacketWrapper.java:956) ~[?:?] {}
+	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.wrapper.play.server.WrapperPlayServerEntityMetadata.read(WrapperPlayServerEntityMetadata.java:52) ~[?:?] {}
+	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.wrapper.PacketWrapper.readEvent(PacketWrapper.java:272) ~[?:?] {}
+	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.wrapper.PacketWrapper.<init>(PacketWrapper.java:177) ~[?:?] {}
+	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.wrapper.PacketWrapper.<init>(PacketWrapper.java:167) ~[?:?] {}
+	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.wrapper.play.server.WrapperPlayServerEntityMetadata.<init>(WrapperPlayServerEntityMetadata.java:36) ~[?:?] {}
+	at ac.grim.grimac.events.packets.PacketSelfMetadataListener.onPacketSend(PacketSelfMetadataListener.java:34) ~[?:?] {}
+	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.PacketSendEvent.call(PacketSendEvent.java:51) ~[?:?] {}
+	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.EventManager.callEvent(EventManager.java:84) ~[?:?] {}
+	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.util.PacketEventsImplHelper.handleClientBoundPacket(PacketEventsImplHelper.java:45) ~[?:?] {}
+	at ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsEncoder.handleClientBoundPacket(PacketEventsEncoder.java:87) ~[?:?] {}
+	at ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsEncoder.encode(PacketEventsEncoder.java:72) ~[?:?] {}
+	at ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsEncoder.encode(PacketEventsEncoder.java:51) ~[?:?] {}
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:89) ~[netty-codec-4.1.77.Final.jar%23113!/:4.1.77.Final] {re:mixin}
+	at ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsEncoder.write(PacketEventsEncoder.java:106) ~[?:?] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:717) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:709) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:792) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:702) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:113) ~[netty-codec-4.1.77.Final.jar%23113!/:4.1.77.Final] {re:mixin}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:717) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:709) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:792) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:702) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:120) ~[netty-codec-4.1.77.Final.jar%23113!/:4.1.77.Final] {re:mixin}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:717) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:709) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:792) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:702) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:110) ~[netty-codec-4.1.77.Final.jar%23113!/:4.1.77.Final] {re:mixin}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:717) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:764) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:790) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:758) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1020) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:311) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelProxy.writeAndFlush(NettyChannelProxy.java:227) ~[?:?] {}
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelProxy.writeAndFlush(NettyChannelProxy.java:233) ~[?:?] {}
+	at net.minecraft.network.Connection.m_243087_(ConnectionMixin.java:209) ~[server-1.19.2-20220805.130853-srg.jar%23235!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:network.ConnectionMixin,pl:mixin:APP:mixins.arclight.impl.forge.optimization.json:network.ConnectionMixin_Optimize,pl:mixin:A,re:mixin,pl:accesstransformer:B}
+	at net.minecraft.network.Connection.lambda$sendPacket$8(ConnectionMixin.java:198) ~[server-1.19.2-20220805.130853-srg.jar%23235!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:network.ConnectionMixin,pl:mixin:APP:mixins.arclight.impl.forge.optimization.json:network.ConnectionMixin_Optimize,pl:mixin:A,re:mixin,pl:accesstransformer:B}
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.lambda$proxyRunnable$2(NettyEventLoopProxy.java:49) ~[?:?] {}
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174) ~[netty-common-4.1.77.Final.jar%23114!/:4.1.77.Final] {}
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167) ~[netty-common-4.1.77.Final.jar%23114!/:4.1.77.Final] {}
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470) ~[netty-common-4.1.77.Final.jar%23114!/:4.1.77.Final] {}
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:394) ~[netty-transport-classes-epoll-4.1.77.Final.jar%23118!/:4.1.77.Final] {}
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:995) ~[netty-common-4.1.77.Final.jar%23114!/:4.1.77.Final] {}
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.77.Final.jar%23114!/:4.1.77.Final] {}
+	at java.lang.Thread.run(Thread.java:1583) [?:?] {re:mixin,re:mixin}
+[17Nov2024 18:37:48.058] [Netty Epoll Server IO #2/WARN] [ac.grim.grimac.shaded.com.github.retrooper.packetevents.PacketEventsAPI/]: PacketEvents caught an unhandled exception while calling your listener.
+java.lang.IllegalStateException: Unknown entity metadata type id: 256 version V_1_19_1
+	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.wrapper.PacketWrapper.readEntityMetadata(PacketWrapper.java:956) ~[?:?] {}
+	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.wrapper.play.server.WrapperPlayServerEntityMetadata.read(WrapperPlayServerEntityMetadata.java:52) ~[?:?] {}
+	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.wrapper.PacketWrapper.readEvent(PacketWrapper.java:272) ~[?:?] {}
+	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.wrapper.PacketWrapper.<init>(PacketWrapper.java:177) ~[?:?] {}
+	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.wrapper.PacketWrapper.<init>(PacketWrapper.java:167) ~[?:?] {}
+	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.wrapper.play.server.WrapperPlayServerEntityMetadata.<init>(WrapperPlayServerEntityMetadata.java:36) ~[?:?] {}
+	at ac.grim.grimac.events.packets.PacketSetWrapperNull.onPacketSend(PacketSetWrapperNull.java:34) ~[?:?] {}
+	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.PacketSendEvent.call(PacketSendEvent.java:51) ~[?:?] {}
+	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.EventManager.callEvent(EventManager.java:84) ~[?:?] {}
+	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.util.PacketEventsImplHelper.handleClientBoundPacket(PacketEventsImplHelper.java:45) ~[?:?] {}
+	at ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsEncoder.handleClientBoundPacket(PacketEventsEncoder.java:87) ~[?:?] {}
+	at ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsEncoder.encode(PacketEventsEncoder.java:72) ~[?:?] {}
+	at ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsEncoder.encode(PacketEventsEncoder.java:51) ~[?:?] {}
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:89) ~[netty-codec-4.1.77.Final.jar%23113!/:4.1.77.Final] {re:mixin}
+	at ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsEncoder.write(PacketEventsEncoder.java:106) ~[?:?] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:717) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:709) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:792) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:702) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:113) ~[netty-codec-4.1.77.Final.jar%23113!/:4.1.77.Final] {re:mixin}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:717) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:709) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:792) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:702) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:120) ~[netty-codec-4.1.77.Final.jar%23113!/:4.1.77.Final] {re:mixin}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:717) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:709) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:792) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:702) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:110) ~[netty-codec-4.1.77.Final.jar%23113!/:4.1.77.Final] {re:mixin}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:717) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:764) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:790) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:758) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1020) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:311) ~[netty-transport-4.1.77.Final.jar%23117!/:4.1.77.Final] {}
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelProxy.writeAndFlush(NettyChannelProxy.java:227) ~[?:?] {}
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelProxy.writeAndFlush(NettyChannelProxy.java:233) ~[?:?] {}
+	at net.minecraft.network.Connection.m_243087_(ConnectionMixin.java:209) ~[server-1.19.2-20220805.130853-srg.jar%23235!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:network.ConnectionMixin,pl:mixin:APP:mixins.arclight.impl.forge.optimization.json:network.ConnectionMixin_Optimize,pl:mixin:A,re:mixin,pl:accesstransformer:B}
+	at net.minecraft.network.Connection.lambda$sendPacket$8(ConnectionMixin.java:198) ~[server-1.19.2-20220805.130853-srg.jar%23235!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:network.ConnectionMixin,pl:mixin:APP:mixins.arclight.impl.forge.optimization.json:network.ConnectionMixin_Optimize,pl:mixin:A,re:mixin,pl:accesstransformer:B}
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.lambda$proxyRunnable$2(NettyEventLoopProxy.java:49) ~[?:?] {}
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174) ~[netty-common-4.1.77.Final.jar%23114!/:4.1.77.Final] {}
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167) ~[netty-common-4.1.77.Final.jar%23114!/:4.1.77.Final] {}
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470) ~[netty-common-4.1.77.Final.jar%23114!/:4.1.77.Final] {}
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:394) ~[netty-transport-classes-epoll-4.1.77.Final.jar%23118!/:4.1.77.Final] {}
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:995) ~[netty-common-4.1.77.Final.jar%23114!/:4.1.77.Final] {}
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.77.Final.jar%23114!/:4.1.77.Final] {}
+	at java.lang.Thread.run(Thread.java:1583) [?:?] {re:mixin,re:mixin}
+[17Nov2024 18:37:48.904] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: Successfully authenticated player 5c2943dc-fbd1-3eea-90f7-73c3c193ebcc
+[17Nov2024 18:37:49.403] [Netty Epoll Server IO #0/INFO] [STDOUT/]: An error has occurred when running transactions for player: xFerNando1314x
+[17Nov2024 18:37:49.403] [Netty Epoll Server IO #0/ERROR] [STDERR/]: java.lang.NullPointerException
+[17Nov2024 18:37:49.403] [Netty Epoll Server IO #0/ERROR] [STDERR/]: 	at java.base/java.util.concurrent.ConcurrentHashMap.putVal(ConcurrentHashMap.java:1011)
+[17Nov2024 18:37:49.403] [Netty Epoll Server IO #0/ERROR] [STDERR/]: 	at java.base/java.util.concurrent.ConcurrentHashMap.put(ConcurrentHashMap.java:1006)
+[17Nov2024 18:37:49.403] [Netty Epoll Server IO #0/ERROR] [STDERR/]: 	at ac.grim.grimac.utils.latency.CompensatedCooldown.addCooldown(CompensatedCooldown.java:53)
+[17Nov2024 18:37:49.403] [Netty Epoll Server IO #0/ERROR] [STDERR/]: 	at ac.grim.grimac.events.packets.PacketPlayerCooldown.lambda$onPacketSend$1(PacketPlayerCooldown.java:33)
+[17Nov2024 18:37:49.403] [Netty Epoll Server IO #0/ERROR] [STDERR/]: 	at ac.grim.grimac.utils.latency.LatencyUtils.handleNettySyncTransaction(LatencyUtils.java:56)
+[17Nov2024 18:37:49.403] [Netty Epoll Server IO #0/ERROR] [STDERR/]: 	at ac.grim.grimac.player.GrimPlayer.addTransactionResponse(GrimPlayer.java:334)
+[17Nov2024 18:37:49.403] [Netty Epoll Server IO #0/ERROR] [STDERR/]: 	at ac.grim.grimac.events.packets.PacketPingListener.onPacketReceive(PacketPingListener.java:62)
+[17Nov2024 18:37:49.403] [Netty Epoll Server IO #0/ERROR] [STDERR/]: 	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.PacketReceiveEvent.call(PacketReceiveEvent.java:44)
+[17Nov2024 18:37:49.404] [Netty Epoll Server IO #0/ERROR] [STDERR/]: 	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.EventManager.callEvent(EventManager.java:84)
+[17Nov2024 18:37:49.404] [Netty Epoll Server IO #0/ERROR] [STDERR/]: 	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.util.PacketEventsImplHelper.handleServerBoundPacket(PacketEventsImplHelper.java:84)
+[17Nov2024 18:37:49.404] [Netty Epoll Server IO #0/ERROR] [STDERR/]: 	at ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsDecoder.read(PacketEventsDecoder.java:57)
+[17Nov2024 18:37:49.404] [Netty Epoll Server IO #0/ERROR] [STDERR/]: 	at ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsDecoder.decode(PacketEventsDecoder.java:64)
+[17Nov2024 18:37:49.404] [Netty Epoll Server IO #0/ERROR] [STDERR/]: 	at ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsDecoder.decode(PacketEventsDecoder.java:41)
+[17Nov2024 18:37:49.404] [Netty Epoll Server IO #0/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.codec@4.1.77.Final/io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:88)
+[17Nov2024 18:37:49.404] [Netty Epoll Server IO #0/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[17Nov2024 18:37:49.404] [Netty Epoll Server IO #0/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[17Nov2024 18:37:49.404] [Netty Epoll Server IO #0/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+[17Nov2024 18:37:49.404] [Netty Epoll Server IO #0/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.codec@4.1.77.Final/io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:327)
+[17Nov2024 18:37:49.404] [Netty Epoll Server IO #0/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.codec@4.1.77.Final/io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:299)
+[17Nov2024 18:37:49.404] [Netty Epoll Server IO #0/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[17Nov2024 18:37:49.404] [Netty Epoll Server IO #0/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[17Nov2024 18:37:49.404] [Netty Epoll Server IO #0/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+[17Nov2024 18:37:49.404] [Netty Epoll Server IO #0/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.codec@4.1.77.Final/io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:327)
+[17Nov2024 18:37:49.404] [Netty Epoll Server IO #0/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.codec@4.1.77.Final/io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:299)
+[17Nov2024 18:37:49.404] [Netty Epoll Server IO #0/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[17Nov2024 18:37:49.404] [Netty Epoll Server IO #0/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[17Nov2024 18:37:49.404] [Netty Epoll Server IO #0/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+[17Nov2024 18:37:49.404] [Netty Epoll Server IO #0/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.handler@4.1.77.Final/io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+[17Nov2024 18:37:49.404] [Netty Epoll Server IO #0/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[17Nov2024 18:37:49.404] [Netty Epoll Server IO #0/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[17Nov2024 18:37:49.404] [Netty Epoll Server IO #0/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+[17Nov2024 18:37:49.404] [Netty Epoll Server IO #0/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+[17Nov2024 18:37:49.404] [Netty Epoll Server IO #0/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[17Nov2024 18:37:49.404] [Netty Epoll Server IO #0/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[17Nov2024 18:37:49.404] [Netty Epoll Server IO #0/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+[17Nov2024 18:37:49.404] [Netty Epoll Server IO #0/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.77.Final/io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800)
+[17Nov2024 18:37:49.404] [Netty Epoll Server IO #0/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.77.Final/io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:487)
+[17Nov2024 18:37:49.404] [Netty Epoll Server IO #0/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.77.Final/io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:385)
+[17Nov2024 18:37:49.404] [Netty Epoll Server IO #0/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.common@4.1.77.Final/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:995)
+[17Nov2024 18:37:49.404] [Netty Epoll Server IO #0/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.common@4.1.77.Final/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[17Nov2024 18:37:49.404] [Netty Epoll Server IO #0/ERROR] [STDERR/]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[17Nov2024 18:37:49.836] [Server thread/WARN] [StackMob/]: Task #138550 for StackMob v5.9.2 generated an exception
+java.lang.NullPointerException: null
+[17Nov2024 18:37:49.904] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: Successfully validated connection of player 5c2943dc-fbd1-3eea-90f7-73c3c193ebcc
+[17Nov2024 18:37:49.904] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: Player MRvite (5c2943dc-fbd1-3eea-90f7-73c3c193ebcc) successfully connected to voice chat
+[17Nov2024 18:37:52.939] [Netty Epoll Server IO #2/INFO] [STDOUT/]: An error has occurred when running transactions for player: MRvite
+[17Nov2024 18:37:52.939] [Netty Epoll Server IO #2/ERROR] [STDERR/]: java.lang.NullPointerException
+[17Nov2024 18:37:52.939] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at java.base/java.util.concurrent.ConcurrentHashMap.putVal(ConcurrentHashMap.java:1011)
+[17Nov2024 18:37:52.939] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at java.base/java.util.concurrent.ConcurrentHashMap.put(ConcurrentHashMap.java:1006)
+[17Nov2024 18:37:52.939] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at ac.grim.grimac.utils.latency.CompensatedCooldown.addCooldown(CompensatedCooldown.java:53)
+[17Nov2024 18:37:52.939] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at ac.grim.grimac.events.packets.PacketPlayerCooldown.lambda$onPacketSend$1(PacketPlayerCooldown.java:33)
+[17Nov2024 18:37:52.939] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at ac.grim.grimac.utils.latency.LatencyUtils.handleNettySyncTransaction(LatencyUtils.java:56)
+[17Nov2024 18:37:52.939] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at ac.grim.grimac.player.GrimPlayer.addTransactionResponse(GrimPlayer.java:334)
+[17Nov2024 18:37:52.939] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at ac.grim.grimac.events.packets.PacketPingListener.onPacketReceive(PacketPingListener.java:62)
+[17Nov2024 18:37:52.939] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.PacketReceiveEvent.call(PacketReceiveEvent.java:44)
+[17Nov2024 18:37:52.939] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.EventManager.callEvent(EventManager.java:84)
+[17Nov2024 18:37:52.939] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at ac.grim.grimac.shaded.com.github.retrooper.packetevents.util.PacketEventsImplHelper.handleServerBoundPacket(PacketEventsImplHelper.java:84)
+[17Nov2024 18:37:52.939] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsDecoder.read(PacketEventsDecoder.java:57)
+[17Nov2024 18:37:52.939] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsDecoder.decode(PacketEventsDecoder.java:64)
+[17Nov2024 18:37:52.939] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsDecoder.decode(PacketEventsDecoder.java:41)
+[17Nov2024 18:37:52.939] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.codec@4.1.77.Final/io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:88)
+[17Nov2024 18:37:52.939] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[17Nov2024 18:37:52.939] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[17Nov2024 18:37:52.939] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+[17Nov2024 18:37:52.939] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.codec@4.1.77.Final/io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:327)
+[17Nov2024 18:37:52.939] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.codec@4.1.77.Final/io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:299)
+[17Nov2024 18:37:52.939] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[17Nov2024 18:37:52.939] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[17Nov2024 18:37:52.939] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+[17Nov2024 18:37:52.939] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.codec@4.1.77.Final/io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:327)
+[17Nov2024 18:37:52.939] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.codec@4.1.77.Final/io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:314)
+[17Nov2024 18:37:52.939] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.codec@4.1.77.Final/io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:435)
+[17Nov2024 18:37:52.939] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.codec@4.1.77.Final/io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:279)
+[17Nov2024 18:37:52.939] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[17Nov2024 18:37:52.939] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[17Nov2024 18:37:52.939] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+[17Nov2024 18:37:52.939] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.handler@4.1.77.Final/io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+[17Nov2024 18:37:52.939] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[17Nov2024 18:37:52.939] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[17Nov2024 18:37:52.939] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+[17Nov2024 18:37:52.939] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+[17Nov2024 18:37:52.939] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[17Nov2024 18:37:52.939] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[17Nov2024 18:37:52.939] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+[17Nov2024 18:37:52.939] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.77.Final/io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800)
+[17Nov2024 18:37:52.939] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.77.Final/io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:487)
+[17Nov2024 18:37:52.939] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.77.Final/io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:385)
+[17Nov2024 18:37:52.939] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.common@4.1.77.Final/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:995)
+[17Nov2024 18:37:52.939] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at MC-BOOTSTRAP/io.netty.common@4.1.77.Final/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[17Nov2024 18:37:52.939] [Netty Epoll Server IO #2/ERROR] [STDERR/]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[17Nov2024 18:38:01.451] [Server thread/WARN] [StackMob/]: Task #138814 for StackMob v5.9.2 generated an exception
+java.lang.NullPointerException: null
+[17Nov2024 18:38:05.850] [Server thread/WARN] [StackMob/]: Task #138911 for StackMob v5.9.2 generated an exception
+java.lang.NullPointerException: null

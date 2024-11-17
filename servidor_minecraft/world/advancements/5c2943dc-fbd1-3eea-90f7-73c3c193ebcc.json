@@ -363,6 +363,7 @@
     "criteria": {
       "cooked_porkchop": "2024-11-17 17:58:31 +0000",
       "chicken": "2024-11-15 19:37:46 +0000",
+      "cooked_mutton": "2024-11-17 19:42:37 +0000",
       "sweet_berries": "2024-11-15 19:51:27 +0000",
       "cooked_beef": "2024-11-17 17:17:56 +0000",
       "beef": "2024-11-15 18:52:30 +0000",
@@ -480,6 +481,12 @@
   "minecraft:recipes/redstone/note_block": {
     "criteria": {
       "has_redstone": "2024-11-17 17:51:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-11-17 19:43:05 +0000"
     },
     "done": true
   },
@@ -651,6 +658,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/acacia_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-11-17 19:43:05 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/obtain_armor": {
     "criteria": {
       "iron_chestplate": "2024-11-15 19:09:40 +0000"
@@ -660,6 +673,12 @@
   "minecraft:recipes/combat/diamond_chestplate": {
     "criteria": {
       "has_diamond": "2024-11-15 19:51:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-11-17 19:43:05 +0000"
     },
     "done": true
   },
@@ -879,6 +898,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/dark_oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-11-17 19:43:05 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/bowl": {
     "criteria": {
       "has_red_mushroom": "2024-11-17 19:31:45 +0000"
@@ -1074,6 +1099,12 @@
   "minecraft:recipes/redstone/birch_door": {
     "criteria": {
       "has_planks": "2024-11-17 17:17:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-11-17 19:43:05 +0000"
     },
     "done": true
   },
@@ -1455,6 +1486,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/mangrove_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-11-17 19:43:05 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/andesite": {
     "criteria": {
       "has_stone": "2024-11-15 19:00:12 +0000"
@@ -1584,6 +1621,12 @@
   "minecraft:recipes/building_blocks/yellow_wool": {
     "criteria": {
       "has_white_wool": "2024-11-15 19:37:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-11-17 19:43:05 +0000"
     },
     "done": true
   },

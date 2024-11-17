@@ -326,6 +326,7 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2024-11-17 18:00:39 +0000",
+      "cooked_mutton": "2024-11-17 18:21:26 +0000",
       "cooked_beef": "2024-11-17 17:23:02 +0000",
       "baked_potato": "2024-11-17 17:40:00 +0000",
       "apple": "2024-11-15 19:47:07 +0000",
@@ -533,6 +534,12 @@
       "has_bed": "2024-11-17 17:08:32 +0000"
     },
     "done": true
+  },
+  "minecraft:husbandry/bred_all_animals": {
+    "criteria": {
+      "minecraft:pig": "2024-11-17 18:22:18 +0000"
+    },
+    "done": false
   },
   "minecraft:recipes/building_blocks/andesite_stairs_from_andesite_stonecutting": {
     "criteria": {
@@ -1693,6 +1700,12 @@
   "minecraft:recipes/decorations/brown_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2024-11-17 17:08:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/breed_an_animal": {
+    "criteria": {
+      "bred": "2024-11-17 18:22:18 +0000"
     },
     "done": true
   },

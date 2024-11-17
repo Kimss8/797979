@@ -381,6 +381,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/golden_carrot": {
+    "criteria": {
+      "has_gold_nugget": "2024-11-17 19:17:49 +0000"
+    },
+    "done": true
+  },
   "apollyon:apollyon": {
     "criteria": {
       "apollyon": "2024-11-15 18:45:16 +0000"
@@ -945,6 +951,8 @@
       "minecraft:skeleton": "2024-11-15 19:03:59 +0000",
       "minecraft:spider": "2024-11-17 17:10:04 +0000",
       "minecraft:creeper": "2024-11-17 18:29:12 +0000",
+      "minecraft:zombified_piglin": "2024-11-17 19:17:55 +0000",
+      "minecraft:piglin": "2024-11-17 19:23:51 +0000",
       "minecraft:zombie": "2024-11-15 18:55:30 +0000"
     },
     "done": false
@@ -1072,6 +1080,12 @@
   "minecraft:recipes/decorations/chain": {
     "criteria": {
       "has_iron_ingot": "2024-11-15 19:06:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
+    "criteria": {
+      "has_gold_nugget": "2024-11-17 19:17:49 +0000"
     },
     "done": true
   },
@@ -1827,6 +1841,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2024-11-17 19:19:18 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/birch_stairs": {
     "criteria": {
       "has_planks": "2024-11-17 17:17:20 +0000"
@@ -1949,7 +1969,8 @@
   },
   "minecraft:nether/explore_nether": {
     "criteria": {
-      "minecraft:crimson_forest": "2024-11-17 18:27:06 +0000"
+      "minecraft:crimson_forest": "2024-11-17 18:27:06 +0000",
+      "minecraft:nether_wastes": "2024-11-17 19:17:17 +0000"
     },
     "done": false
   },

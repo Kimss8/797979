@@ -879,6 +879,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_red_mushroom": "2024-11-17 19:31:45 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_salmon_from_campfire_cooking": {
     "criteria": {
       "has_salmon": "2024-11-17 18:44:08 +0000"
@@ -1320,6 +1326,12 @@
   "minecraft:recipes/misc/red_dye_from_poppy": {
     "criteria": {
       "has_poppy": "2024-11-17 17:23:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/nether_brick": {
+    "criteria": {
+      "has_netherrack": "2024-11-17 19:35:34 +0000"
     },
     "done": true
   },
@@ -1970,7 +1982,8 @@
   "minecraft:nether/explore_nether": {
     "criteria": {
       "minecraft:crimson_forest": "2024-11-17 18:27:06 +0000",
-      "minecraft:nether_wastes": "2024-11-17 19:17:17 +0000"
+      "minecraft:nether_wastes": "2024-11-17 19:17:17 +0000",
+      "minecraft:warped_forest": "2024-11-17 19:39:17 +0000"
     },
     "done": false
   },

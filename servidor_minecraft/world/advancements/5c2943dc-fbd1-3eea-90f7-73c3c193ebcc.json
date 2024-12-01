@@ -398,6 +398,7 @@
       "bread": "2024-11-15 19:24:50 +0000",
       "rotten_flesh": "2024-11-15 19:32:36 +0000",
       "suspicious_stew": "2024-11-15 19:54:51 +0000",
+      "salmon": "2024-12-01 21:11:10 +0000",
       "carrot": "2024-11-15 19:24:06 +0000"
     },
     "done": false
@@ -618,6 +619,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/spyglass": {
+    "criteria": {
+      "has_amethyst_shard": "2024-12-01 21:10:32 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/pink_concrete_powder": {
     "criteria": {
       "has_gravel": "2024-11-15 19:16:08 +0000"
@@ -687,6 +694,12 @@
   "minecraft:recipes/decorations/diorite_wall_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2024-11-15 19:00:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tinted_glass": {
+    "criteria": {
+      "has_amethyst_shard": "2024-12-01 21:10:32 +0000"
     },
     "done": true
   },
@@ -1494,6 +1507,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/amethyst_block": {
+    "criteria": {
+      "has_amethyst_shard": "2024-12-01 21:10:32 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/deflect_arrow": {
     "criteria": {
       "deflected_projectile": "2024-11-15 19:23:37 +0000"
@@ -2203,6 +2222,12 @@
   "minecraft:recipes/food/cooked_beef_from_campfire_cooking": {
     "criteria": {
       "has_beef": "2024-11-15 18:44:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond": {
+    "criteria": {
+      "has_diamond_block": "2024-12-01 21:14:53 +0000"
     },
     "done": true
   },
